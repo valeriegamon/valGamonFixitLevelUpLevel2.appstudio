@@ -16,15 +16,19 @@ let outfits = [`Gosh ${nameCapitalized1}! You need to wear a warm coat, hat, sca
 switch (true) {
   case userTemp1 < 32 && stateCapitalized1 == 'NE':
     NSB.MsgBox(outfits[0]);
+    alert(outfits[0]);
     break;
   case userTemp1 >= 32 && userTemp1 <=50 && stateCapitalized1 == 'NE':
-    NSB.MsgBox(outfits[1]);   
+    NSB.MsgBox(outfits[1]); 
+    alert(outfits[1]); 
     break;
   case userTemp1 >= 32 && userTemp1 <=50 && stateCapitalized1 == 'FL':
     NSB.MsgBox(outfits[2]);
+    alert(outfits[2]);
     break;
   case userTemp1 >50 && userTemp1 <=70 && stateCapitalized1 == 'FL'
     NSB.MsgBox(outfits[3]);
+    alert(outfit[3]);
     break;
 }
 

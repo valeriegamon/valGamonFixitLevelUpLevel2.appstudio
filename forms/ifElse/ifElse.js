@@ -15,12 +15,16 @@ let outfit = [`Gosh ${nameCapitalized}! You need to wear a warm coat, hat, scarf
 //if/else method for determining what they should wear based on state and temps
 if (userTemp < 32 && stateCapitalized == 'NE') {
     NSB.MsgBox(outfit[0]);
+    alert(outfit[0]);
 } else if (userTemp >= 32 && userTemp <=50 && stateCapitalized == 'NE') {
     NSB.MsgBox(outfit[1]);
+    alert(outfit[1]);
 } else if (userTemp >= 32 && userTemp <=50 && stateCapitalized == 'FL') {
     NSB.MsgBox(outfit[2]);
+    alert(outfit[2]);
 } else if (userTemp >50 && userTemp <=70 && stateCapitalized == 'FL') {
     NSB.MsgBox(outfit[3]);
+    alert(outfit[3]);
 }
 
 //Done!
