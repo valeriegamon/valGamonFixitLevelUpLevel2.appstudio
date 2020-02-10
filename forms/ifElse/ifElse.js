@@ -4,7 +4,7 @@ let userState = prompt('What state are you from? (ie. NE) ');
 let userTemp = Number(prompt('What Fahrenheit temperature is it outside right now? (ie. 50) '));
 
 //String method to convert the first letter of the user name to a capital in case the user used all lower case.
-const nameCapitalized = (userName.charAt(0).toUpperCase() + name.slice(1)); 
+const nameCapitalized = (userName.charAt(0).toUpperCase() + userName.slice(1)); 
 
 //String method to convert the state entered to all capitals in case the user used lower case.
 const stateCapitalized = (userState.toUpperCase()); 
