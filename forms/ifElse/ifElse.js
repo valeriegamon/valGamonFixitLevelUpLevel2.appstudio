@@ -7,6 +7,8 @@ const stateCapitalized = state.charAt(0).toUpperCase() + state.charAt(1).toUpper
 
 let outfit = [`Gosh ${name}! You need a coat and gloves! Its gonna be chilly ouside!!`,  `You should just need a light jacket ${name}.`,  `${name}, you should dress for warm weather with sandals, sunglasses and sunscreen.`,  `${name}, Stay away from the outdoors! Its WICKED HOT out there.'];
 
+
+
 if (temp <= 32) {
     alert(outfit[0]);
 } else if (temp >= 32 && temp <=60) {
